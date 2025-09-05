@@ -54,7 +54,7 @@ export default function Home() {
       </div>
       <div>
         {session.data?.user?.image ? (
-          <Image src={session.data?.user?.image} width={400} height={400} alt="profile image" />
+          <Image src={session.data?.user?.image} width={200} height={200} alt="profile image" />
         ) : (
           <div>No Image</div>
         )}
